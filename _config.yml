@@ -1,6 +1,5 @@
 markdown:    kramdown
-highlighter: pygments
-# highlighter: rouge
+highlighter: rouge
 
 kramdown:
   auto_ids:       true
