@@ -1,7 +1,8 @@
-markdown:    kramdown
+markdown:    redcarpet
 highlighter: rouge
 
 kramdown:
+  input: GFM
   auto_ids:       true
   footnote_nr:    1
   entity_output:  as_char
@@ -9,13 +10,5 @@ kramdown:
   smart_quotes:   lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
-  coderay:
-    coderay_wrap:              div
-    coderay_line_numbers:      table
-    coderay_line_number_start: 1
-    coderay_tab_width:         4
-    coderay_bold_every:        10
-    coderay_css:               css
-
 redcarpet:
-  extensions: ["fenced_code_blocks","with_toc_data"]
+  extensions: ["fenced_code_blocks"]
