@@ -2,19 +2,19 @@
 layout: post_new
 title: "Composer报Composer\\Downloader\\TransportException错误的解决方法"
 description: ""
-tags: [Sonarqube]
+tags: [Composer]
 published: true
 ---
 执行`Composer`命令时，可能会报以下错误（以self-update命令为例）：
 
 ~~~bash
 $ composer self-update                                  
-                                                                                    
+
   [Composer\Downloader\TransportException]
   The "https://getcomposer.org/version" file could not be downloaded: SSL operation failed with code 1. OpenSSL Error messages:
   error:14090086:SSL routines:SSL3_GET_SERVER_CERTIFICATE:certificate verify failed
   Failed to enable crypto
-  failed to open stream: operation failed                                                                                         
+  failed to open stream: operation failed
 
 ~~~
 
