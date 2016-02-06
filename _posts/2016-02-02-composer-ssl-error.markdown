@@ -8,7 +8,7 @@ published: true
 执行`Composer`命令时，可能会报以下错误（以self-update命令为例）：
 
 ```bash
-$ composer self-update                                  
+$ composer self-update
 
   [Composer\Downloader\TransportException]
   The "https://getcomposer.org/version" file could not be downloaded: SSL operation failed with code 1. OpenSSL Error messages:
